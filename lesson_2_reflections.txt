@@ -3,31 +3,33 @@ How is the staging area different from the working directory and the repository?
     Staging area is a middle stage. Files flows from working directory -> staging area -> git
     Files in the staging area could be used for testing
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+How can you use the staging area to make sure you have one commit per logical change?
 
-    Fill in your answer here
+    I can use the files in the staging area to test. 
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-    Fill in your answer here
+    Sometimes, devleoping does not go oneway. It have to be sepearted to several ways
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
+How do the diagrams help you visualize the branch structure?
 
-    Fill in your answer here
+    Diagram shows me whole history of the flow
 
-How can you use the commands git log and git diff to view the history of files?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-    Fill in your answer here
+    Two files merged and it become one. 
 
-How might using version control make you more confident to make changes that
-could break something?
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-    Fill in your answer here
+    Pros Automatic merging is not good. A programmer should decide which version is going to upload
+    Cons A programmer sometimes forget to add files. Keeping those files in the staging area could be good
 
-Now that you have your workspace set up, what do you want to try using Git for?
+git checkout master		master로 브랜치를 바꿈 
+git branch easy-mode   make a branch named easy-mosw
+git branch -d coins 	
 
-    Fill in your answer here
+git diff compares working directory and staging area
+git diff --staged compares staging area and repository
+git diff commit1 commit2 compares commit1 and commit2
+
+git log --graph --oneline master coins
