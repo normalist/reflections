@@ -6,7 +6,8 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    I'll choose manually. If I others update Github and automatically update my local directory.
+    I can't work.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
@@ -34,4 +35,7 @@ Adding a Remote
 	git remote add origin [url]
 	git remote -v
 	git push origin master
-	(you may login to github)
+	(you may login to github
+
+Pulling Changes
+	git pull origin master 
