@@ -29,7 +29,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I'll use branch when I got more experince with Github. 
 
 Adding a Remote
 	Create repository on github.com
@@ -57,3 +57,5 @@ git btanch different-oil
 git checkout different-oil
 git add cake-recipe.txt
 git push origin different-oil
+
+bash sarah_changes_2.sh https://github.com/normalist/recipes.git
