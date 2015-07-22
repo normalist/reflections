@@ -12,17 +12,19 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    I'll use fork when I need a source from github.com
+    I'll use clone when I need a download source
+    I'll use branch when I need a develop special feature in my local directory
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    My source will be keep updated last known status and there would be not much difference with my version.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I didn't know Gtihub is handy. I'll not work othere without Git or Github.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
@@ -38,4 +40,20 @@ Adding a Remote
 	(you may login to github
 
 Pulling Changes
-	git pull origin master 
+	git pull origin master
+
+Fork, Clone, Branch 
+
+git clone https://github.com/normalist/recipes.git
+
+git pull origin master = git fetch origin
+                         git merge master origin/master
+
+git fetch [bookmark]  Downloads all history from the repository bookmark
+
+Fast-Forward Merge when you merge two commits, where one is ancestor of the other 
+
+git btanch different-oil
+git checkout different-oil
+git add cake-recipe.txt
+git push origin different-oil
